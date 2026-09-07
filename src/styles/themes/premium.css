@@ -1,0 +1,251 @@
+[data-theme="premium"] {
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Montserrat', -apple-system, sans-serif;
+  --heading-weight: 700;
+
+  --color-primary: #1a1a1a;
+  --color-primary-faint: rgba(26, 26, 26, 0.08);
+  --color-bg: #ffffff;
+  --color-bg-alt: #f7f7f5;
+  --color-bg-card: #ffffff;
+  --color-text: #333333;
+  --color-text-muted: #777777;
+  --color-heading: #111111;
+  --color-border: #e5e5e5;
+
+  --title-size: 2.4rem;
+  --title-spacing: -0.03em;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 6px;
+
+  --shadow-md: none;
+  --shadow-lg: none;
+
+  --section-padding: 96px 0;
+  --section-padding-sm: 56px 0;
+
+  --btn-radius: 0;
+  --btn-padding: 14px 36px;
+  --btn-primary-bg: #1a1a1a;
+  --btn-primary-color: #ffffff;
+  --btn-primary-hover: #333333;
+  --btn-secondary-color: #1a1a1a;
+  --btn-secondary-border: #1a1a1a;
+  --btn-secondary-hover-bg: rgba(0, 0, 0, 0.03);
+
+  --header-bg: rgba(255, 255, 255, 0.96);
+  --header-border: #e5e5e5;
+  --header-height: 80px;
+  --header-shadow: none;
+
+  --hero-height: 90vh;
+  --hero-overlay: linear-gradient(to right, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.15) 60%, transparent 100%);
+  --hero-text-color: #ffffff;
+  --hero-title-size: 4.5rem;
+  --hero-title-spacing: -0.04em;
+  --hero-title-weight: 900;
+  --hero-eyebrow-size: 0.82rem;
+  --hero-eyebrow-transform: uppercase;
+  --hero-eyebrow-spacing: 0.25em;
+  --hero-subtitle-size: 1.1rem;
+  --hero-align: center;
+  --hero-justify: flex-start;
+  --hero-text-align: left;
+  --hero-content-width: 600px;
+  --hero-padding: 80px 0 80px 0;
+  --hero-btn-bg: #ffffff;
+  --hero-btn-color: #1a1a1a;
+  --hero-btn-border: transparent;
+  --hero-btn-hover: rgba(255, 255, 255, 0.88);
+
+  --search-bg: var(--color-bg);
+  --search-mt: 0;
+  --search-card-padding: 40px 48px;
+
+  --apt-grid: repeat(3, 1fr);
+  --apt-gap: 24px;
+  --apt-card-direction: column;
+  --apt-img-ratio: 3/2;
+  --apt-body-padding: 28px;
+  --price-badge-bg: #1a1a1a;
+  --price-badge-color: #ffffff;
+
+  --amenity-bg: #f7f7f5;
+  --amenity-radius: 2px;
+
+  --gallery-gap: 6px;
+
+  --service-card-padding: 40px 28px;
+  --service-icon-bg: #f7f7f5;
+  --service-icon-radius: 4px;
+  --services-gap: 24px;
+
+  --cta-bg: #1a1a1a;
+  --cta-color: #ffffff;
+  --cta-btn-bg: #ffffff;
+  --cta-btn-color: #1a1a1a;
+  --cta-btn-hover: rgba(255, 255, 255, 0.88);
+
+  --footer-bg: #111111;
+  --footer-color: #cccccc;
+  --footer-heading-color: #ffffff;
+
+  --switcher-bg: #111111;
+  --switcher-color: #cccccc;
+  --logo-spacing: -0.03em;
+  --section-header-mb: 56px;
+}
+
+[data-theme="premium"] .hero__subtitle {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+[data-theme="premium"] .hero__content {
+  padding-left: 5%;
+}
+
+[data-theme="premium"] .search {
+  border-top: 1px solid var(--color-border);
+  padding: 64px 0;
+}
+
+[data-theme="premium"] .search__card {
+  box-shadow: none;
+  border: 1px solid var(--color-border);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+[data-theme="premium"] .search__title {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  text-transform: none;
+  letter-spacing: -0.02em;
+}
+
+[data-theme="premium"] .section-title {
+  font-size: 2.4rem;
+  letter-spacing: -0.03em;
+}
+
+[data-theme="premium"] .apt-card {
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  border-radius: 0;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+[data-theme="premium"] .apt-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+[data-theme="premium"] .apt-card__image-wrap {
+  border-radius: 0;
+}
+
+[data-theme="premium"] .apt-card__name {
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+[data-theme="premium"] .apt-card__desc {
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+[data-theme="premium"] .service-card {
+  border: none;
+  border-bottom: 1px solid var(--color-border);
+  border-radius: 0;
+  text-align: left;
+  padding: 0 0 32px;
+}
+
+[data-theme="premium"] .service-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+[data-theme="premium"] .service-card__icon {
+  margin: 0 0 16px 0;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+}
+
+[data-theme="premium"] .gallery__item {
+  border-radius: 0;
+}
+
+[data-theme="premium"] .gallery__item:hover .gallery__img {
+  transform: none;
+}
+
+[data-theme="premium"] .about__inner {
+  gap: 72px;
+}
+
+[data-theme="premium"] .about__img {
+  height: 480px;
+}
+
+[data-theme="premium"] .about__paragraphs p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+[data-theme="premium"] .faq__question {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+}
+
+[data-theme="premium"] .final-cta__inner {
+  border-radius: 0;
+  padding: 80px 48px;
+}
+
+[data-theme="premium"] .final-cta__title {
+  font-size: 2.6rem;
+  letter-spacing: -0.04em;
+}
+
+[data-theme="premium"] .footer__social-links a {
+  border-radius: 0;
+}
+
+@media (min-width: 769px) {
+  [data-theme="premium"] .apartments__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  [data-theme="premium"] .apt-card:nth-child(odd) {
+    padding-right: 32px;
+    border-right: 1px solid var(--color-border);
+  }
+
+  [data-theme="premium"] .apt-card:nth-child(even) {
+    padding-left: 32px;
+  }
+
+  [data-theme="premium"] .services__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 64px;
+  }
+
+  [data-theme="premium"] .location__inner {
+    gap: 64px;
+  }
+}
+
+@media (min-width: 1025px) {
+  [data-theme="premium"] .apartments__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+}

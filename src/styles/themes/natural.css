@@ -1,0 +1,203 @@
+[data-theme="natural"] {
+  --font-heading: 'Merriweather', Georgia, serif;
+  --font-body: 'Nunito', -apple-system, sans-serif;
+  --heading-weight: 700;
+
+  --color-primary: #5a7a5e;
+  --color-primary-faint: rgba(90, 122, 94, 0.12);
+  --color-bg: #faf8f4;
+  --color-bg-alt: #f0ece4;
+  --color-bg-card: #ffffff;
+  --color-text: #3a3428;
+  --color-text-muted: #6b6358;
+  --color-heading: #2a2419;
+  --color-border: #ddd5c8;
+
+  --title-size: 2rem;
+  --title-spacing: -0.01em;
+
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+
+  --shadow-md: 0 4px 20px rgba(58, 52, 40, 0.07);
+  --shadow-lg: 0 8px 36px rgba(58, 52, 40, 0.1);
+
+  --section-padding: 72px 0;
+  --section-padding-sm: 40px 0;
+
+  --btn-radius: 24px;
+  --btn-padding: 12px 28px;
+  --btn-primary-bg: #5a7a5e;
+  --btn-primary-color: #ffffff;
+  --btn-primary-hover: #4a6a4e;
+  --btn-secondary-color: #5a7a5e;
+  --btn-secondary-border: #5a7a5e;
+  --btn-secondary-hover-bg: rgba(90, 122, 94, 0.08);
+
+  --header-bg: #faf8f4;
+  --header-border: #ddd5c8;
+  --header-height: 68px;
+  --header-shadow: 0 2px 16px rgba(58, 52, 40, 0.06);
+
+  --hero-height: 75vh;
+  --hero-overlay: linear-gradient(to bottom, rgba(42, 36, 25, 0.1) 0%, rgba(42, 36, 25, 0.5) 100%);
+  --hero-text-color: #ffffff;
+  --hero-title-size: 3.2rem;
+  --hero-title-spacing: -0.02em;
+  --hero-title-weight: 700;
+  --hero-eyebrow-size: 0.9rem;
+  --hero-eyebrow-transform: none;
+  --hero-eyebrow-spacing: 0.05em;
+  --hero-subtitle-size: 1.1rem;
+  --hero-align: flex-end;
+  --hero-justify: center;
+  --hero-text-align: center;
+  --hero-content-width: 650px;
+  --hero-padding: 60px 0 80px;
+  --hero-btn-bg: #5a7a5e;
+  --hero-btn-color: #fff;
+  --hero-btn-border: transparent;
+  --hero-btn-hover: #4a6a4e;
+
+  --search-bg: var(--color-bg);
+  --search-mt: -32px;
+  --search-card-padding: 32px 36px;
+
+  --apt-grid: repeat(3, 1fr);
+  --apt-gap: 24px;
+  --apt-card-direction: column;
+  --apt-img-ratio: 4/3;
+  --apt-body-padding: 22px;
+  --price-badge-bg: rgba(90, 122, 94, 0.9);
+  --price-badge-color: #fff;
+
+  --amenity-bg: rgba(90, 122, 94, 0.08);
+  --amenity-radius: 20px;
+
+  --gallery-gap: 10px;
+
+  --service-card-padding: 32px 22px;
+  --service-icon-bg: rgba(90, 122, 94, 0.1);
+  --service-icon-radius: 50%;
+  --services-gap: 24px;
+
+  --cta-bg: linear-gradient(135deg, #5a7a5e 0%, #3d5a40 100%);
+  --cta-color: #ffffff;
+  --cta-btn-bg: #ffffff;
+  --cta-btn-color: #5a7a5e;
+  --cta-btn-hover: rgba(255, 255, 255, 0.92);
+
+  --footer-bg: #2a2419;
+  --footer-color: #c8c0b4;
+  --footer-heading-color: #f0ece4;
+
+  --switcher-bg: #2a2419;
+  --switcher-color: #c8c0b4;
+  --logo-spacing: -0.01em;
+  --section-header-mb: 40px;
+}
+
+[data-theme="natural"] .hero__eyebrow {
+  font-style: italic;
+  font-family: var(--font-heading);
+}
+
+[data-theme="natural"] .search__card {
+  border-radius: 20px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 6px 32px rgba(58, 52, 40, 0.1);
+}
+
+[data-theme="natural"] .search__title {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+}
+
+[data-theme="natural"] .apt-card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 20px rgba(58, 52, 40, 0.06);
+}
+
+[data-theme="natural"] .apt-card:hover {
+  box-shadow: 0 8px 36px rgba(58, 52, 40, 0.12);
+}
+
+[data-theme="natural"] .apt-card__name {
+  font-family: var(--font-heading);
+}
+
+[data-theme="natural"] .gallery__item {
+  border-radius: 12px;
+}
+
+[data-theme="natural"] .service-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(58, 52, 40, 0.06);
+}
+
+[data-theme="natural"] .about__img {
+  border-radius: 20px;
+}
+
+[data-theme="natural"] .location__map {
+  border-radius: 16px;
+}
+
+[data-theme="natural"] .location__highlight {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 2px 12px rgba(58, 52, 40, 0.06);
+}
+
+[data-theme="natural"] .faq__question {
+  font-family: var(--font-heading);
+}
+
+[data-theme="natural"] .final-cta__inner {
+  border-radius: 24px;
+}
+
+[data-theme="natural"] .footer__social-links a {
+  border-radius: 50%;
+}
+
+@media (min-width: 769px) {
+  [data-theme="natural"] .apartments__grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  [data-theme="natural"] .apt-card {
+    flex-direction: row;
+  }
+
+  [data-theme="natural"] .apt-card__image-wrap {
+    width: 40%;
+    flex-shrink: 0;
+    aspect-ratio: auto;
+    min-height: 280px;
+  }
+
+  [data-theme="natural"] .apt-card__body {
+    padding: 28px 32px;
+  }
+
+  [data-theme="natural"] .services__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+
+  [data-theme="natural"] .about__inner {
+    gap: 56px;
+  }
+
+  [data-theme="natural"] .about__img {
+    height: 420px;
+  }
+}

@@ -1,0 +1,144 @@
+[data-theme="mediterranean"] {
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Lato', -apple-system, sans-serif;
+  --heading-weight: 700;
+
+  --color-primary: #c8956c;
+  --color-primary-faint: rgba(200, 149, 108, 0.15);
+  --color-bg: #fdfbf8;
+  --color-bg-alt: #f6f1eb;
+  --color-bg-card: #ffffff;
+  --color-text: #3d3225;
+  --color-text-muted: #7a6e60;
+  --color-heading: #2c2316;
+  --color-border: #e8dfd4;
+
+  --title-size: 2.2rem;
+  --title-spacing: -0.02em;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-md: 0 4px 24px rgba(60, 50, 37, 0.08);
+  --shadow-lg: 0 8px 40px rgba(60, 50, 37, 0.1);
+
+  --section-padding: 80px 0;
+  --section-padding-sm: 48px 0;
+
+  --btn-radius: 8px;
+  --btn-padding: 12px 28px;
+  --btn-primary-bg: #c8956c;
+  --btn-primary-color: #fff;
+  --btn-primary-hover: #b07c55;
+  --btn-secondary-color: #c8956c;
+  --btn-secondary-border: #c8956c;
+  --btn-secondary-hover-bg: rgba(200, 149, 108, 0.08);
+
+  --header-bg: #ffffff;
+  --header-border: #e8dfd4;
+  --header-height: 72px;
+  --header-shadow: 0 2px 20px rgba(60, 50, 37, 0.08);
+
+  --hero-height: 82vh;
+  --hero-overlay: linear-gradient(to bottom, rgba(44, 35, 22, 0.15) 0%, rgba(44, 35, 22, 0.45) 100%);
+  --hero-text-color: #ffffff;
+  --hero-title-size: 3.8rem;
+  --hero-title-spacing: -0.03em;
+  --hero-title-weight: 700;
+  --hero-eyebrow-size: 0.95rem;
+  --hero-eyebrow-transform: uppercase;
+  --hero-eyebrow-spacing: 0.18em;
+  --hero-subtitle-size: 1.15rem;
+  --hero-align: center;
+  --hero-justify: center;
+  --hero-text-align: center;
+  --hero-content-width: 700px;
+  --hero-padding: 80px 0;
+  --hero-btn-bg: #c8956c;
+  --hero-btn-color: #fff;
+  --hero-btn-border: transparent;
+  --hero-btn-hover: #b07c55;
+
+  --search-bg: transparent;
+  --search-mt: -64px;
+  --search-card-padding: 36px 40px;
+
+  --apt-grid: repeat(3, 1fr);
+  --apt-gap: 28px;
+  --apt-card-direction: column;
+  --apt-img-ratio: 3/4;
+  --apt-body-padding: 24px;
+  --price-badge-bg: rgba(44, 35, 22, 0.8);
+  --price-badge-color: #fff;
+
+  --amenity-bg: rgba(200, 149, 108, 0.1);
+  --amenity-radius: 20px;
+
+  --gallery-gap: 14px;
+
+  --service-card-padding: 36px 24px;
+  --service-icon-bg: rgba(200, 149, 108, 0.1);
+  --service-icon-radius: 50%;
+  --services-gap: 28px;
+
+  --cta-bg: linear-gradient(135deg, #c8956c 0%, #a67a54 100%);
+  --cta-color: #fff;
+  --cta-btn-bg: #fff;
+  --cta-btn-color: #c8956c;
+  --cta-btn-hover: rgba(255, 255, 255, 0.92);
+
+  --footer-bg: #2c2316;
+  --footer-color: #e8dfd4;
+  --footer-heading-color: #ffffff;
+
+  --switcher-bg: #2c2316;
+  --switcher-color: #e8dfd4;
+  --logo-spacing: -0.02em;
+  --section-header-mb: 48px;
+}
+
+[data-theme="mediterranean"] .search {
+  position: relative;
+  z-index: 20;
+  padding-top: 0;
+  padding-bottom: 56px;
+}
+
+[data-theme="mediterranean"] .search__card {
+  box-shadow: 0 16px 56px rgba(60, 50, 37, 0.14);
+  border: none;
+}
+
+[data-theme="mediterranean"] .section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--color-primary);
+  margin: 16px auto 0;
+}
+
+[data-theme="mediterranean"] .about__text .section-title::after {
+  margin-left: 0;
+}
+
+[data-theme="mediterranean"] .apt-card__name {
+  font-size: 1.35rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+[data-theme="mediterranean"] .gallery__item {
+  border-radius: 10px;
+}
+
+@media (min-width: 769px) {
+  [data-theme="mediterranean"] .services__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+  [data-theme="mediterranean"] .service-card {
+    padding: 40px 28px;
+  }
+}
